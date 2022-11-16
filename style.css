@@ -46,6 +46,7 @@ span {
     padding-right: 0%;
     margin: 50px 10px 20px -50px;
     justify-content: space-between;
+    font-family: calibri;
 }
 .hero-section .hero-text {
     width: 100%;
@@ -78,6 +79,9 @@ span {
     filter: sepia(20%);
 }
 .hero-section .hero-image2{
+    display: none;
+}
+.hero-section .hero-image3 {
     display: none;
 }
 @media screen and (max-width:2560px){
@@ -132,6 +136,9 @@ span {
     .hero-section .hero-image {
         display: none;
     }
+    .hero-section .hero-image3 {
+        display: none;
+    }
     .hero-section .hero-image2 {
         display: block;
         width: 100%;
@@ -156,5 +163,18 @@ span {
         font-size: 3vw;
         font-weight: lighter;
         color: rgba(255, 255, 255, 0.649);
+    }
+}
+@media screen and (max-width:375px){
+    .hero-section .hero-image {
+        display: none;
+    }
+    .hero-section .hero-image2 {
+        display: none;
+    }
+    .hero-section .hero-image3 {
+        display: block;
+        width: 100%;
+        margin-left: -50px;
     }
 }
