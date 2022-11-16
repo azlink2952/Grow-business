@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(1, 1, 23);
+    padding: 100px;
+}
+.hero-text {
+    color: white;
+}
+.insert {
+    color: white;
+    list-style: none;
+    font-size: 1.9vw;
+    font-family: calibri;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.insert ul {
+    list-style: none;
+}
+.insert ul li{
+    display: inline;
+}
+.insert3 {
+    display: none;
+}
+span {
+    color: blueviolet;
+}
+.insert1 {
+    color: rgba(255, 255, 255, 0.553);
+    font-family: calibri;
+}
+.insert1 ul {
+    list-style: none;
+}
+.insert1 ul li {
+    display: inline;
+}
+.hero-section {
+    display: flex;
+    padding-left: 11%;
+    padding-right: 0%;
+    margin: 50px 10px 20px -50px;
+    justify-content: space-between;
+}
+.hero-section .hero-text {
+    width: 100%;
+    background-color: rgb(25, 25, 60);
+    padding-left: 80px;
+    margin-left: -50px
+    /*padding-left: 130px;
+    padding-top: 150px;*/
+}
+.hero-section .h1 {
+    font-size: 3.4vw;
+    font-family: calibri;
+    line-height: 90%;
+    width: 80%;
+    margin-top: 100px;
+}
+.hero-section .p {
+    font-family: calibri;
+    font-weight:lighter;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.665);
+    margin-top: 30px;
+    width: 70%;
+    text-align: justify;
+}
+.hero-section .hero-image {
+    width: calc(80% - 100px);
+    align-self: flex-end;
+    text-align: center;
+    filter: sepia(20%);
+}
+.hero-section .hero-image2{
+    display: none;
+}
+@media screen and (max-width:2560px){
+    body {
+        margin: 150px 0px 0px 0px;
+        padding: 0px 2px 20px 30px;
+        width: 100%;
+    }
+    .hero-section .hero-image {
+        width: 100%;
+        margin-left: -400px;
+    }
+}
+@media screen and (max-width:1440px){
+    body {
+        margin: 200px 0px 0px 0px;
+        padding: 0px 2px 20px 30px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px){
+    body {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 2px 20px 30px;
+        width: 100%;
+    }
+    .hero-section {
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 50px 0;
+        
+    }
+    .hero-section .hero-text {
+        width: 100%;
+        text-align: center;
+        margin-top: -5px;
+        
+    }
+    .hero-section .h1{
+        text-align: center;
+        width: 100%;
+        margin-left: -40px;
+        font-size: 6.2vw;
+        margin-top: 30px;
+    }
+    .hero-section .p{
+        text-align: center;
+        width: 100%;
+        font-size: 3.5vw;
+        margin-left: -40px;
+    }
+    .hero-section .hero-image {
+        display: none;
+    }
+    .hero-section .hero-image2 {
+        display: block;
+        width: 100%;
+        margin-left: -50px;
+    }
+    .insert, .insert1 {
+        display: none;
+    }
+    .insert3 {
+        display: block;
+        margin-left: -70px;
+        margin-top: 30px;
+        font-family: calibri;
+        font-weight: bolder;
+        font-size: 5vw;
+        margin-bottom: 30px;
+    }
+    .insert3 ul {
+        list-style: none;
+    }
+    .low {
+        font-size: 3vw;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.649);
+    }
+}
