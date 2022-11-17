@@ -60,7 +60,7 @@ span {
     font-size: 3.4vw;
     font-family: calibri;
     line-height: 90%;
-    width: 80%;
+    width: 60%;
     margin-top: 100px;
 }
 .hero-section .p {
@@ -69,7 +69,7 @@ span {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.665);
     margin-top: 30px;
-    width: 70%;
+    width: 50%;
     text-align: justify;
 }
 .hero-section .hero-image {
@@ -84,6 +84,18 @@ span {
 .hero-section .hero-image3 {
     display: none;
 }
+.hero-section .hero-image4 {
+    display: none;
+}
+.hero-section .hero-image5 {
+    display: none;
+}
+.high {
+    font-size: 0.9vw;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.613);
+    margin-top: -15px;
+}
 @media screen and (max-width:2560px){
     body {
         margin: 150px 0px 0px 0px;
@@ -94,6 +106,12 @@ span {
         width: 100%;
         margin-left: -400px;
     }
+    .hero-section .hero-image4 {
+        display: none;
+    }
+    .hero-section .hero-image5 {
+        display: none;
+    }
 }
 @media screen and (max-width:1440px){
     body {
@@ -102,7 +120,115 @@ span {
         width: 100%;
     }
 }
+@media screen and (max-width:1024px){
+    body {
+        margin: 200px 0px 0px 0px;
+        padding: 0px 2px 20px 30px;
+        width: 100%;
+    }
+    .hero-section .hero-image {
+        display: none;
+    }
+    .hero-section .hero-image2{
+        display: none;
+    }
+    .hero-section .hero-image3 {
+        display: none;
+    }
+    .hero-section .hero-image5 {
+        display: none;
+    }
+    .hero-section .hero-image4 {
+        display: block;
+    }
+    .hero-section {
+        width: 90%;
+    }
+    .hero-section .h1{
+        text-align: center;
+        width: 100%;
+        margin-left: -40px;
+        font-size: 3.2vw;
+        margin-top: 30px;
+    }
+    .hero-section .p{
+        text-align: center;
+        width: 100%;
+        font-size: 1.5vw;
+        margin-left: -40px;
+        margin-top: 5px;
+    }
+}
 @media screen and (max-width:767px){
+    body {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 2px 20px 30px;
+        width: 100%;
+    }
+    .hero-section {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 50px 0;
+        
+    }
+    .hero-section .hero-text {
+        width: 100%;
+        text-align: center;
+        margin-top: -5px;
+        
+    }
+    .hero-section .h1{
+        text-align: center;
+        width: 100%;
+        margin-left: -40px;
+        font-size: 6.2vw;
+        margin-top: 30px;
+    }
+    .hero-section .p{
+        text-align: center;
+        width: 100%;
+        font-size: 3.5vw;
+        margin-left: -40px;
+    }
+    .hero-section .hero-image {
+        display: none;
+    }
+    .hero-section .hero-image3 {
+        display: none;
+    }
+    .hero-section .hero-image4 {
+        display: none;
+    }
+    .hero-section .hero-image2 {
+        display: none;
+    }
+    .hero-section .hero-image5 {
+        display: block;
+        width: 50%;
+        margin-left: -50px;
+    }
+    .insert, .insert1 {
+        display: none;
+    }
+    .insert3 {
+        display: block;
+        margin-left: -70px;
+        margin-top: 30px;
+        font-family: calibri;
+        font-weight: bolder;
+        font-size: 5vw;
+        margin-bottom: 30px;
+    }
+    .insert3 ul {
+        list-style: none;
+    }
+    .low {
+        font-size: 3vw;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.649);
+    }
+}
+@media screen and (max-width:425px){
     body {
         margin: 0px 0px 0px 0px;
         padding: 0px 2px 20px 30px;
@@ -139,6 +265,12 @@ span {
     .hero-section .hero-image3 {
         display: none;
     }
+    .hero-section .hero-image4 {
+        display: none;
+    }
+    .hero-section .hero-image5 {
+        display: none;
+    }
     .hero-section .hero-image2 {
         display: block;
         width: 100%;
@@ -170,6 +302,12 @@ span {
         display: none;
     }
     .hero-section .hero-image2 {
+        display: none;
+    }
+    .hero-section .hero-image4 {
+        display: none;
+    }
+    .hero-section .hero-image5 {
         display: none;
     }
     .hero-section .hero-image3 {
