@@ -216,7 +216,7 @@ span {
     }
     .hero-section .hero-image5 {
         display: block;
-        width: 50%;
+        width: 100%;
         margin-left: -50px;
     }
     .insert, .insert1 {
@@ -248,7 +248,7 @@ span {
     }
     .hero-section {
         flex-direction: column-reverse;
-        width: 105%;
+        width: 100%;
         margin: 50px 0;
         
     }
@@ -333,6 +333,11 @@ span {
     .hero-section .hero-image6 {
         display: none;
     }
+    .hero-section .hero-text {
+        width: 100%;
+        text-align: center;
+        margin-top: -5px;
+    }
 }
 @media screen and (max-width:320px){
     .hero-section .hero-image {
@@ -352,13 +357,12 @@ span {
     }
     .hero-section .hero-image6 {
         display: block;
-        width: 100%;
+        width: 110%;
         margin-left: -50px;
     }
     .hero-section .hero-text {
         width: 110%;
         text-align: center;
         margin-top: -5px;
-        
     }
 }
