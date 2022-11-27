@@ -132,7 +132,7 @@ span {
 @media screen and (max-width:767px){
     body {
         height: 100%;
-        padding: 20px 0 20px 0;
+        padding: 100px 0 20px 0;
     }
     .hero-section {
         flex-direction: column-reverse;
