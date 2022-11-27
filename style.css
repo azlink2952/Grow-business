@@ -144,6 +144,7 @@ span {
         width: 100%;
         padding: 0;
         text-align: center;
+        border-radius: 0px 0px 20px 20px;
     }
     .hero-section .h1{
         padding-left: 100px;
@@ -162,8 +163,15 @@ span {
         display: none;
     }
     .hero-section .hero-image2 {
+        background-image: url(images/image-header-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 256px;
+        background-blend-mode: lighten;
+        height: 100%;
         display: block;
         width: 100%;
+        border-radius: 10px 10px 0px 0px;
     }
     .hero-image2 img {
         width: 100%;
