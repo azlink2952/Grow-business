@@ -175,7 +175,7 @@ span {
     .hero-section .hero-image2 {
         background-image: url(images/image-header-mobile.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         padding-bottom: 256px;
         background-color: rgba(79, 4, 149, 0.698);
         background-blend-mode: overlay;
