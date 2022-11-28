@@ -92,8 +92,7 @@ span {
 .hero-section .hero-image {
     background-image: url(images/image-header-desktop.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 256px;
+    background-size: cover;
     background-color: rgba(79, 4, 149, 0.698);
     background-blend-mode: overlay;
     height: 100%;
